@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/dentalni-turizam', function () {
+    return view('dentalni-turizam');
+});

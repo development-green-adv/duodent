@@ -1,6 +1,6 @@
 @extends("layout/master")
 
-@section("title", "Duodent | Home page")
+@section("title", "Duodent | Početna")
 
 @section("content")
 

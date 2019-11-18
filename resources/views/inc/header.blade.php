@@ -20,7 +20,7 @@
 <div class="container logo_section">
     <div class="row h-100">
         <div class="col-12 col-md-4 align-self-center">
-            <img class="img-fluid" src="{{ asset('images/web/duodent.png') }}" alt="Duodent">
+            <a href="/"><img class="img-fluid" src="{{ asset('images/web/duodent.png') }}" alt="Duodent"></a>
         </div>
         <div class="col-12 col-md-8 text-right align-self-center">
             <div class="align-self-center text-right logo_section__info">
@@ -49,7 +49,7 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav menu_tabs">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">NASLOVNA</a>
+                                    <a class="nav-link" href="/">NASLOVNA</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">IMPLANTOLOGIJA</a>
@@ -58,7 +58,7 @@
                                     <a class="nav-link" href="#">STOMATOLOGIJA</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">DENTALNI TURIZAM</a>
+                                    <a class="nav-link" href="/dentalni-turizam">DENTALNI TURIZAM</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">O NAMA</a>

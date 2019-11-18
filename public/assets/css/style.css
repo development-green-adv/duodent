@@ -296,6 +296,16 @@ p, a, h1, h2, h3, h4, h5, h6, li, i{
     position: relative;
 }
 
+.gallery_item1{
+    width: 100%;
+    height: 200px;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .blue_shapee{
     background-color: rgba(27, 77, 112, .8);
     width: 100%;
@@ -342,6 +352,10 @@ p, a, h1, h2, h3, h4, h5, h6, li, i{
     width: 100%;
 }
 
+.all_content_section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 
 
