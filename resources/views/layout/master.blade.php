@@ -22,6 +22,9 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>-->
 
     <title>@yield('title')</title>
+
+    @section("style")
+        @show
     
 </head>
 <body>
@@ -29,6 +32,34 @@
     @section('content')
         @show
 
+    <div class="back_to_top">
+
+    </div>
+
+    <script>
+        
+        $(document).scroll(function() {
+
+            var y = $(this).scrollTop();
+            if (y > 500) {
+                $('.back_to_top').fadeIn();
+            } else {
+                $('.back_to_top').fadeOut();
+            }
+
+        });
+
+
+       
+
+        $('.back_to_top').click(function(){ 
+            $('html,body').animate({ scrollTop: 0 }, 'slow');
+        });
+
+        
+
+
+    </script>
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 

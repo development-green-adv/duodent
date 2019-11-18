@@ -2,6 +2,19 @@
 
 @section("title", "Duodent | Dentalni turizam")
 
+@section('style')
+
+    <style>
+        
+        #dentalni{
+            background-color: #f498c0;
+            color: #fff;
+        }
+        
+    </style>
+
+@endsection
+
 @section("content")
 
     @include("inc/header")

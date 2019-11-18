@@ -2,6 +2,19 @@
 
 @section("title", "Duodent | Početna")
 
+@section('style')
+
+    <style>
+        
+        #naslovna{
+            background-color: #f498c0;
+            color: #fff;
+        }
+        
+    </style>
+
+@endsection
+
 @section("content")
 
     @include("inc/header")

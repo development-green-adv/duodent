@@ -3,6 +3,25 @@ p, a, h1, h2, h3, h4, h5, h6, li, i{
     margin-bottom: 0px;
 }
 
+.back_to_top{
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: #f498c0;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#sticky_header{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+}
+
 .header_rose_section{
     padding-top: 7px;
     padding-bottom: 7px;
@@ -75,14 +94,22 @@ p, a, h1, h2, h3, h4, h5, h6, li, i{
     justify-content: space-between;
 }
 
+.menu_tabs li{
+    transition: all .3s;
+}
+
+.menu_tabs li:hover{
+    background-color: #f498c0;
+    color: #fff;
+}
+
 .menu_tabs a{
     color: #fff;
 }
 
-
-
 .main_slider_section{
     position: relative;
+    margin-top: 250px;
 }
 
 .blue_shape{
@@ -355,6 +382,7 @@ p, a, h1, h2, h3, h4, h5, h6, li, i{
 .all_content_section{
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 250px;
 }
 
 
